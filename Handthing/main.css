@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input_video {
+    display: none; 
+}
+.output_canvas {
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+
+}
+.img{
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+}
